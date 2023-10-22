@@ -1,0 +1,267 @@
+html {
+    font-size: 15px;
+  }
+  
+  body {
+    background: linear-gradient(to bottom right, #af5e94, #5949f2) fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .card-body,
+  ul {
+    background-color: rgba(246, 243, 255, 0.9);
+    min-height: 0px;
+  }
+  
+  .form-control {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .list-item {
+    color: rgb(101, 101, 255);
+  }
+  
+  .list-group-item {
+    background-color: inherit;
+    border: none;
+  }
+  
+  .under-list-item {
+    font-size: 0.9rem;
+    color: rgb(78, 78, 78);
+  }
+  
+  .line-through {
+    text-decoration: line-through;
+  }
+  .custom-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .custom-btn {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  
+    
+  }
+  
+
+  .custom-input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-input:focus {
+    outline: none;
+    border-color: #218838;
+    box-shadow: 0 0 5px 0 rgba(40, 167, 69, 0.5);
+  }
+  
+  
+  .custom-btn:hover {
+    background-color: #218838;
+  }
+  .custom-btn {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 12px 20px;
+  }
+  
+  .custom-btn:hover {
+    background-color: #218838;
+  }
+ss  
+  
+  footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 10px 0;
+  }  
+  .list-group-item {
+    background-color: #f8f9fa;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  
+  .list-group-item span {
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .list-group-item .btn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .list-group-item .btn:hover {
+    background-color: #c82333;
+  }
+  list-group-item {
+    background-color: #f8f9fa;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  
+  .list-group-item span {
+    font-size: 18px;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .list-group-item .btn {
+    background-color: rgb(11, 211, 54);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .list-group-item .btn:hover {
+    background-color: green;
+    transform: scale(1.05);
+  }
+  
+  .list-group-item:hover {
+    background-color: #e2e6ea;
+  }
+ /* CSS Style */
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.list-group-item span {
+  flex: 1;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+/* CSS code */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa; 
+  text-align: center; 
+  padding: 10px; 
+}
+
+
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #fff;
+  color: green;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.custom-input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.custom-btn {
+  width: 100%;
+}
